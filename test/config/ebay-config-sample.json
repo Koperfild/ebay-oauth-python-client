@@ -1,0 +1,15 @@
+{
+	"api.ebay.com": {
+		"devid": "7f33b712-4d3a-42e8-847d-e4bd3ca34b1f",
+		"certid": "PRD-38876c2ad8b8-53bb-4b68-981a-92f9",
+		"appid": "AlexMoss-Tracking-PRD-138876c2a-4837a214",
+		"redirecturi": "https://www.google.com"
+	},
+	"name": "ebay-config",
+	"api.sandbox.ebay.com": {
+		"devid": "7f33b712-4d3a-42e8-847d-e4bd3ca34b1f",
+		"certid": "PRD-38876c2ad8b8-53bb-4b68-981a-92f9",
+		"redirecturi": "https://www.google.com",
+		"appid": "AlexMoss-Tracking-PRD-138876c2a-4837a214"
+	}
+}

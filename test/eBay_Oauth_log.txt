@@ -1,0 +1,15 @@
+2019-12-03 18:57:17,639: INFO - load: Loading credential configuration file at: config\ebay-config-sample.json
+2019-12-03 18:57:17,639: DEBUG - _iterate: Environment attempted: api.ebay.com
+2019-12-03 18:57:17,640: DEBUG - _iterate: Environment attempted: name
+2019-12-03 18:57:17,640: DEBUG - _iterate: Environment attempted: api.sandbox.ebay.com
+2019-12-03 18:57:17,640: INFO - read_user_info: Loading user credential configuration file at: ..\test\config\test-config-sample.yaml
+2019-12-03 18:57:17,645: DEBUG - read_user_info: Environment attempted: name
+2019-12-03 18:57:17,645: DEBUG - read_user_info: Environment attempted: sandbox-user
+2019-12-03 18:57:17,645: DEBUG - read_user_info: Environment attempted: production-user
+2019-12-03 18:57:18,181: DEBUG - _request: POST http://127.0.0.1:60580/session {"capabilities": {"firstMatch": [{}], "alwaysMatch": {"browserName": "chrome", "platformName": "any", "goog:chromeOptions": {"extensions": [], "args": []}}}, "desiredCapabilities": {"browserName": "chrome", "version": "", "platform": "ANY", "goog:chromeOptions": {"extensions": [], "args": []}}}
+2019-12-03 18:57:18,182: DEBUG - _new_conn: Starting new HTTP connection (1): 127.0.0.1:60580
+2019-12-03 18:57:23,436: DEBUG - _make_request: http://127.0.0.1:60580 "POST /session HTTP/1.1" 200 685
+2019-12-03 18:57:23,437: DEBUG - _request: Finished Request
+2019-12-03 18:57:23,438: DEBUG - _request: POST http://127.0.0.1:60580/session/66bd521f68e588b2edb1ccc6d4c5688f/url {"url": "https://auth.ebay.com/oauth2/authorize?client_id=EvgenyPe-zapier-PRD-eb321054e-6daf01dd&redirect_uri=https%3A%2F%2Fwww.google.com&response_type=code&prompt=login&scope=https%3A%2F%2Fapi.ebay.com%2Foauth%2Fapi_scope+https%3A%2F%2Fapi.ebay.com%2Foauth%2Fapi_scope%2Fsell.marketing.readonly+https%3A%2F%2Fapi.ebay.com%2Foauth%2Fapi_scope%2Fsell.marketinghttps%3A%2F%2Fapi.ebay.com%2Foauth%2Fapi_scope%2Fsell.inventory.readonly+https%3A%2F%2Fapi.ebay.com%2Foauth%2Fapi_scope%2Fsell.inventory+https%3A%2F%2Fapi.ebay.com%2Foauth%2Fapi_scope%2Fsell.account.readonly+https%3A%2F%2Fapi.ebay.com%2Foauth%2Fapi_scope%2Fsell.account+https%3A%2F%2Fapi.ebay.com%2Foauth%2Fapi_scope%2Fsell.fulfillment.readonly+https%3A%2F%2Fapi.ebay.com%2Foauth%2Fapi_scope%2Fsell.fulfillment+https%3A%2F%2Fapi.ebay.com%2Foauth%2Fapi_scope%2Fsell.analytics.readonly+https%3A%2F%2Fapi.ebay.com%2Foauth%2Fapi_scope%2Fsell.finances+https%3A%2F%2Fapi.ebay.com%2Foauth%2Fapi_scope%2Fsell.payment.dispute+https%3A%2F%2Fapi.ebay.com%2Foauth%2Fapi_scope%2Fcommerce.identity.readonly"}
+2019-12-03 18:57:26,151: DEBUG - _make_request: http://127.0.0.1:60580 "POST /session/66bd521f68e588b2edb1ccc6d4c5688f/url HTTP/1.1" 200 14
+2019-12-03 18:57:26,152: DEBUG - _request: Finished Request
