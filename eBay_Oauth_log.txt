@@ -1,0 +1,339 @@
+2019-12-25 18:35:07,149: INFO - load: Loading credential configuration file at: C:\Users\Evgeny\Documents\Projects\ebay-oauth-python-client\test\config\ebay-config-sample.json
+2019-12-25 18:35:07,229: DEBUG - _iterate: Environment attempted: api.ebay.com
+2019-12-25 18:35:07,230: DEBUG - _iterate: Environment attempted: name
+2019-12-25 18:35:07,231: DEBUG - _iterate: Environment attempted: api.sandbox.ebay.com
+2019-12-25 18:35:10,274: DEBUG - _request: POST http://127.0.0.1:57689/session {"capabilities": {"firstMatch": [{}], "alwaysMatch": {"browserName": "chrome", "platformName": "any", "proxy": {"httpProxy": "5.79.73.131:13010", "ftpProxy": "5.79.73.131:13010", "sslProxy": "5.79.73.131:13010", "noProxy": null, "proxyType": "manual", "class": "org.openqa.selenium.Proxy", "autodetect": false}}}, "desiredCapabilities": {"browserName": "chrome", "version": "", "platform": "ANY", "proxy": {"httpProxy": "5.79.73.131:13010", "ftpProxy": "5.79.73.131:13010", "sslProxy": "5.79.73.131:13010", "noProxy": null, "proxyType": "MANUAL", "class": "org.openqa.selenium.Proxy", "autodetect": false}}}
+2019-12-25 18:35:10,276: DEBUG - _new_conn: Starting new HTTP connection (1): 127.0.0.1:57689
+2019-12-25 18:35:17,559: DEBUG - _make_request: http://127.0.0.1:57689 "POST /session HTTP/1.1" 200 868
+2019-12-25 18:35:17,560: DEBUG - _request: Finished Request
+2019-12-25 18:35:17,561: DEBUG - _request: POST http://127.0.0.1:57689/session/6f6ede7d700f486574f6c7da8f63c624/url {"url": "https://auth.ebay.com/oauth2/authorize?client_id=AlexMoss-Tracking-PRD-138876c2a-4837a214&redirect_uri=https%3A%2F%2Fwww.google.com&response_type=code&prompt=login&scope=https%3A%2F%2Fapi.ebay.com%2Foauth%2Fapi_scope+https%3A%2F%2Fapi.ebay.com%2Foauth%2Fapi_scope%2Fsell.marketing.readonly+https%3A%2F%2Fapi.ebay.com%2Foauth%2Fapi_scope%2Fsell.marketing+https%3A%2F%2Fapi.ebay.com%2Foauth%2Fapi_scope%2Fsell.inventory.readonly+https%3A%2F%2Fapi.ebay.com%2Foauth%2Fapi_scope%2Fsell.inventory+https%3A%2F%2Fapi.ebay.com%2Foauth%2Fapi_scope%2Fsell.account.readonly+https%3A%2F%2Fapi.ebay.com%2Foauth%2Fapi_scope%2Fsell.account+https%3A%2F%2Fapi.ebay.com%2Foauth%2Fapi_scope%2Fsell.fulfillment.readonly+https%3A%2F%2Fapi.ebay.com%2Foauth%2Fapi_scope%2Fsell.fulfillment+https%3A%2F%2Fapi.ebay.com%2Foauth%2Fapi_scope%2Fsell.analytics.readonly+https%3A%2F%2Fapi.ebay.com%2Foauth%2Fapi_scope%2Fsell.finances+https%3A%2F%2Fapi.ebay.com%2Foauth%2Fapi_scope%2Fsell.payment.dispute+https%3A%2F%2Fapi.ebay.com%2Foauth%2Fapi_scope%2Fcommerce.identity.readonly"}
+2019-12-25 18:35:33,375: DEBUG - _make_request: http://127.0.0.1:57689 "POST /session/6f6ede7d700f486574f6c7da8f63c624/url HTTP/1.1" 200 14
+2019-12-25 18:35:33,376: DEBUG - _request: Finished Request
+2019-12-25 18:35:33,377: DEBUG - _request: POST http://127.0.0.1:57689/session/6f6ede7d700f486574f6c7da8f63c624/element {"using": "css selector", "value": "[name=\"userid\"]"}
+2019-12-25 18:35:33,418: DEBUG - _make_request: http://127.0.0.1:57689 "POST /session/6f6ede7d700f486574f6c7da8f63c624/element HTTP/1.1" 200 88
+2019-12-25 18:35:33,419: DEBUG - _request: Finished Request
+2019-12-25 18:35:33,421: DEBUG - _request: POST http://127.0.0.1:57689/session/6f6ede7d700f486574f6c7da8f63c624/element {"using": "css selector", "value": "[name=\"pass\"]"}
+2019-12-25 18:35:33,440: DEBUG - _make_request: http://127.0.0.1:57689 "POST /session/6f6ede7d700f486574f6c7da8f63c624/element HTTP/1.1" 200 88
+2019-12-25 18:35:33,441: DEBUG - _request: Finished Request
+2019-12-25 18:35:33,441: DEBUG - _request: POST http://127.0.0.1:57689/session/6f6ede7d700f486574f6c7da8f63c624/element/b5b76bb4-32dd-4ab0-9120-0cdb2c115a86/value {"text": "acopsystem@gmail.com", "value": ["a", "c", "o", "p", "s", "y", "s", "t", "e", "m", "@", "g", "m", "a", "i", "l", ".", "c", "o", "m"], "id": "b5b76bb4-32dd-4ab0-9120-0cdb2c115a86"}
+2019-12-25 18:35:33,745: DEBUG - _make_request: http://127.0.0.1:57689 "POST /session/6f6ede7d700f486574f6c7da8f63c624/element/b5b76bb4-32dd-4ab0-9120-0cdb2c115a86/value HTTP/1.1" 200 14
+2019-12-25 18:35:33,746: DEBUG - _request: Finished Request
+2019-12-25 18:35:33,747: DEBUG - _request: POST http://127.0.0.1:57689/session/6f6ede7d700f486574f6c7da8f63c624/element/059f1d3d-7b49-4ddf-b449-3a3591e43ee8/value {"text": "FDvpl23232", "value": ["F", "D", "v", "p", "l", "2", "3", "2", "3", "2"], "id": "059f1d3d-7b49-4ddf-b449-3a3591e43ee8"}
+2019-12-25 18:35:33,852: DEBUG - _make_request: http://127.0.0.1:57689 "POST /session/6f6ede7d700f486574f6c7da8f63c624/element/059f1d3d-7b49-4ddf-b449-3a3591e43ee8/value HTTP/1.1" 200 14
+2019-12-25 18:35:33,854: DEBUG - _request: Finished Request
+2019-12-25 18:35:33,854: DEBUG - _request: POST http://127.0.0.1:57689/session/6f6ede7d700f486574f6c7da8f63c624/element {"using": "css selector", "value": "[id=\"sgnBt\"]"}
+2019-12-25 18:35:33,868: DEBUG - _make_request: http://127.0.0.1:57689 "POST /session/6f6ede7d700f486574f6c7da8f63c624/element HTTP/1.1" 200 88
+2019-12-25 18:35:33,869: DEBUG - _request: Finished Request
+2019-12-25 18:35:33,870: DEBUG - _request: POST http://127.0.0.1:57689/session/6f6ede7d700f486574f6c7da8f63c624/element/5ca5f1db-7bf8-4502-b644-85373d54cdd1/element {"using": "xpath", "value": "./ancestor-or-self::form", "id": "5ca5f1db-7bf8-4502-b644-85373d54cdd1"}
+2019-12-25 18:35:33,885: DEBUG - _make_request: http://127.0.0.1:57689 "POST /session/6f6ede7d700f486574f6c7da8f63c624/element/5ca5f1db-7bf8-4502-b644-85373d54cdd1/element HTTP/1.1" 200 88
+2019-12-25 18:35:33,886: DEBUG - _request: Finished Request
+2019-12-25 18:35:33,887: DEBUG - _request: POST http://127.0.0.1:57689/session/6f6ede7d700f486574f6c7da8f63c624/execute/sync {"script": "var e = arguments[0].ownerDocument.createEvent('Event');e.initEvent('submit', true, true);if (arguments[0].dispatchEvent(e)) { arguments[0].submit() }", "args": [{"ELEMENT": "ad0eab67-1de3-4902-8e7b-ef11278d609c", "element-6066-11e4-a52e-4f735466cecf": "ad0eab67-1de3-4902-8e7b-ef11278d609c"}]}
+2019-12-25 18:35:53,080: DEBUG - _make_request: http://127.0.0.1:57689 "POST /session/6f6ede7d700f486574f6c7da8f63c624/execute/sync HTTP/1.1" 200 14
+2019-12-25 18:35:53,081: DEBUG - _request: Finished Request
+2019-12-25 18:35:53,082: DEBUG - _request: GET http://127.0.0.1:57689/session/6f6ede7d700f486574f6c7da8f63c624/url {}
+2019-12-25 18:35:53,119: DEBUG - _make_request: http://127.0.0.1:57689 "GET /session/6f6ede7d700f486574f6c7da8f63c624/url HTTP/1.1" 200 41
+2019-12-25 18:35:53,120: DEBUG - _request: Finished Request
+2019-12-25 18:35:53,628: DEBUG - _request: GET http://127.0.0.1:57689/session/6f6ede7d700f486574f6c7da8f63c624/url {}
+2019-12-25 18:35:53,636: DEBUG - _make_request: http://127.0.0.1:57689 "GET /session/6f6ede7d700f486574f6c7da8f63c624/url HTTP/1.1" 200 41
+2019-12-25 18:35:53,637: DEBUG - _request: Finished Request
+2019-12-25 18:35:54,142: DEBUG - _request: GET http://127.0.0.1:57689/session/6f6ede7d700f486574f6c7da8f63c624/url {}
+2019-12-25 18:35:54,147: DEBUG - _make_request: http://127.0.0.1:57689 "GET /session/6f6ede7d700f486574f6c7da8f63c624/url HTTP/1.1" 200 41
+2019-12-25 18:35:54,147: DEBUG - _request: Finished Request
+2019-12-25 18:35:54,653: DEBUG - _request: GET http://127.0.0.1:57689/session/6f6ede7d700f486574f6c7da8f63c624/url {}
+2019-12-25 18:35:54,667: DEBUG - _make_request: http://127.0.0.1:57689 "GET /session/6f6ede7d700f486574f6c7da8f63c624/url HTTP/1.1" 200 41
+2019-12-25 18:35:54,669: DEBUG - _request: Finished Request
+2019-12-25 18:35:55,181: DEBUG - _request: GET http://127.0.0.1:57689/session/6f6ede7d700f486574f6c7da8f63c624/url {}
+2019-12-25 18:35:55,189: DEBUG - _make_request: http://127.0.0.1:57689 "GET /session/6f6ede7d700f486574f6c7da8f63c624/url HTTP/1.1" 200 41
+2019-12-25 18:35:55,190: DEBUG - _request: Finished Request
+2019-12-25 18:35:55,691: DEBUG - _request: GET http://127.0.0.1:57689/session/6f6ede7d700f486574f6c7da8f63c624/url {}
+2019-12-25 18:35:55,709: DEBUG - _make_request: http://127.0.0.1:57689 "GET /session/6f6ede7d700f486574f6c7da8f63c624/url HTTP/1.1" 200 41
+2019-12-25 18:35:55,711: DEBUG - _request: Finished Request
+2019-12-25 18:35:56,217: DEBUG - _request: GET http://127.0.0.1:57689/session/6f6ede7d700f486574f6c7da8f63c624/url {}
+2019-12-25 18:35:56,234: DEBUG - _make_request: http://127.0.0.1:57689 "GET /session/6f6ede7d700f486574f6c7da8f63c624/url HTTP/1.1" 200 41
+2019-12-25 18:35:56,236: DEBUG - _request: Finished Request
+2019-12-25 18:35:56,741: DEBUG - _request: GET http://127.0.0.1:57689/session/6f6ede7d700f486574f6c7da8f63c624/url {}
+2019-12-25 18:35:56,750: DEBUG - _make_request: http://127.0.0.1:57689 "GET /session/6f6ede7d700f486574f6c7da8f63c624/url HTTP/1.1" 200 41
+2019-12-25 18:35:56,751: DEBUG - _request: Finished Request
+2019-12-25 18:35:57,256: DEBUG - _request: GET http://127.0.0.1:57689/session/6f6ede7d700f486574f6c7da8f63c624/url {}
+2019-12-25 18:35:57,273: DEBUG - _make_request: http://127.0.0.1:57689 "GET /session/6f6ede7d700f486574f6c7da8f63c624/url HTTP/1.1" 200 41
+2019-12-25 18:35:57,275: DEBUG - _request: Finished Request
+2019-12-25 18:35:57,782: DEBUG - _request: GET http://127.0.0.1:57689/session/6f6ede7d700f486574f6c7da8f63c624/url {}
+2019-12-25 18:35:57,792: DEBUG - _make_request: http://127.0.0.1:57689 "GET /session/6f6ede7d700f486574f6c7da8f63c624/url HTTP/1.1" 200 41
+2019-12-25 18:35:57,793: DEBUG - _request: Finished Request
+2019-12-25 18:35:58,296: DEBUG - _request: GET http://127.0.0.1:57689/session/6f6ede7d700f486574f6c7da8f63c624/url {}
+2019-12-25 18:35:58,313: DEBUG - _make_request: http://127.0.0.1:57689 "GET /session/6f6ede7d700f486574f6c7da8f63c624/url HTTP/1.1" 200 41
+2019-12-25 18:35:58,315: DEBUG - _request: Finished Request
+2019-12-25 18:35:58,823: DEBUG - _request: GET http://127.0.0.1:57689/session/6f6ede7d700f486574f6c7da8f63c624/url {}
+2019-12-25 18:35:58,840: DEBUG - _make_request: http://127.0.0.1:57689 "GET /session/6f6ede7d700f486574f6c7da8f63c624/url HTTP/1.1" 200 41
+2019-12-25 18:35:58,842: DEBUG - _request: Finished Request
+2019-12-25 18:35:59,347: DEBUG - _request: GET http://127.0.0.1:57689/session/6f6ede7d700f486574f6c7da8f63c624/url {}
+2019-12-25 18:35:59,355: DEBUG - _make_request: http://127.0.0.1:57689 "GET /session/6f6ede7d700f486574f6c7da8f63c624/url HTTP/1.1" 200 41
+2019-12-25 18:35:59,355: DEBUG - _request: Finished Request
+2019-12-25 18:35:59,859: DEBUG - _request: GET http://127.0.0.1:57689/session/6f6ede7d700f486574f6c7da8f63c624/url {}
+2019-12-25 18:35:59,876: DEBUG - _make_request: http://127.0.0.1:57689 "GET /session/6f6ede7d700f486574f6c7da8f63c624/url HTTP/1.1" 200 41
+2019-12-25 18:35:59,879: DEBUG - _request: Finished Request
+2019-12-25 18:36:00,385: DEBUG - _request: GET http://127.0.0.1:57689/session/6f6ede7d700f486574f6c7da8f63c624/url {}
+2019-12-25 18:36:00,825: DEBUG - _make_request: http://127.0.0.1:57689 "GET /session/6f6ede7d700f486574f6c7da8f63c624/url HTTP/1.1" 200 41
+2019-12-25 18:36:00,825: DEBUG - _request: Finished Request
+2019-12-25 18:36:01,337: DEBUG - _request: GET http://127.0.0.1:57689/session/6f6ede7d700f486574f6c7da8f63c624/url {}
+2019-12-25 18:36:01,358: DEBUG - _make_request: http://127.0.0.1:57689 "GET /session/6f6ede7d700f486574f6c7da8f63c624/url HTTP/1.1" 200 41
+2019-12-25 18:36:01,361: DEBUG - _request: Finished Request
+2019-12-25 18:36:01,868: DEBUG - _request: GET http://127.0.0.1:57689/session/6f6ede7d700f486574f6c7da8f63c624/url {}
+2019-12-25 18:36:01,885: DEBUG - _make_request: http://127.0.0.1:57689 "GET /session/6f6ede7d700f486574f6c7da8f63c624/url HTTP/1.1" 200 41
+2019-12-25 18:36:01,887: DEBUG - _request: Finished Request
+2019-12-25 18:36:02,397: DEBUG - _request: GET http://127.0.0.1:57689/session/6f6ede7d700f486574f6c7da8f63c624/url {}
+2019-12-25 18:36:02,415: DEBUG - _make_request: http://127.0.0.1:57689 "GET /session/6f6ede7d700f486574f6c7da8f63c624/url HTTP/1.1" 200 41
+2019-12-25 18:36:02,417: DEBUG - _request: Finished Request
+2019-12-25 18:36:02,928: DEBUG - _request: GET http://127.0.0.1:57689/session/6f6ede7d700f486574f6c7da8f63c624/url {}
+2019-12-25 18:36:02,946: DEBUG - _make_request: http://127.0.0.1:57689 "GET /session/6f6ede7d700f486574f6c7da8f63c624/url HTTP/1.1" 200 41
+2019-12-25 18:36:02,949: DEBUG - _request: Finished Request
+2019-12-25 18:36:03,459: DEBUG - _request: GET http://127.0.0.1:57689/session/6f6ede7d700f486574f6c7da8f63c624/url {}
+2019-12-25 18:36:03,494: DEBUG - _make_request: http://127.0.0.1:57689 "GET /session/6f6ede7d700f486574f6c7da8f63c624/url HTTP/1.1" 200 41
+2019-12-25 18:36:03,496: DEBUG - _request: Finished Request
+2019-12-25 18:36:04,001: DEBUG - _request: GET http://127.0.0.1:57689/session/6f6ede7d700f486574f6c7da8f63c624/url {}
+2019-12-25 18:36:04,010: DEBUG - _make_request: http://127.0.0.1:57689 "GET /session/6f6ede7d700f486574f6c7da8f63c624/url HTTP/1.1" 200 41
+2019-12-25 18:36:04,013: DEBUG - _request: Finished Request
+2019-12-25 18:36:04,528: DEBUG - _request: GET http://127.0.0.1:57689/session/6f6ede7d700f486574f6c7da8f63c624/url {}
+2019-12-25 18:36:04,537: DEBUG - _make_request: http://127.0.0.1:57689 "GET /session/6f6ede7d700f486574f6c7da8f63c624/url HTTP/1.1" 200 41
+2019-12-25 18:36:04,539: DEBUG - _request: Finished Request
+2019-12-25 18:36:05,040: DEBUG - _request: GET http://127.0.0.1:57689/session/6f6ede7d700f486574f6c7da8f63c624/url {}
+2019-12-25 18:36:05,057: DEBUG - _make_request: http://127.0.0.1:57689 "GET /session/6f6ede7d700f486574f6c7da8f63c624/url HTTP/1.1" 200 41
+2019-12-25 18:36:05,059: DEBUG - _request: Finished Request
+2019-12-25 18:36:05,567: DEBUG - _request: GET http://127.0.0.1:57689/session/6f6ede7d700f486574f6c7da8f63c624/url {}
+2019-12-25 18:36:05,584: DEBUG - _make_request: http://127.0.0.1:57689 "GET /session/6f6ede7d700f486574f6c7da8f63c624/url HTTP/1.1" 200 41
+2019-12-25 18:36:05,586: DEBUG - _request: Finished Request
+2019-12-25 18:36:06,096: DEBUG - _request: GET http://127.0.0.1:57689/session/6f6ede7d700f486574f6c7da8f63c624/url {}
+2019-12-25 18:36:06,102: DEBUG - _make_request: http://127.0.0.1:57689 "GET /session/6f6ede7d700f486574f6c7da8f63c624/url HTTP/1.1" 200 41
+2019-12-25 18:36:06,102: DEBUG - _request: Finished Request
+2019-12-25 18:36:06,607: DEBUG - _request: GET http://127.0.0.1:57689/session/6f6ede7d700f486574f6c7da8f63c624/url {}
+2019-12-25 18:36:06,617: DEBUG - _make_request: http://127.0.0.1:57689 "GET /session/6f6ede7d700f486574f6c7da8f63c624/url HTTP/1.1" 200 41
+2019-12-25 18:36:06,618: DEBUG - _request: Finished Request
+2019-12-25 18:36:07,128: DEBUG - _request: GET http://127.0.0.1:57689/session/6f6ede7d700f486574f6c7da8f63c624/url {}
+2019-12-25 18:36:07,135: DEBUG - _make_request: http://127.0.0.1:57689 "GET /session/6f6ede7d700f486574f6c7da8f63c624/url HTTP/1.1" 200 41
+2019-12-25 18:36:07,136: DEBUG - _request: Finished Request
+2019-12-25 18:36:07,643: DEBUG - _request: GET http://127.0.0.1:57689/session/6f6ede7d700f486574f6c7da8f63c624/url {}
+2019-12-25 18:36:07,649: DEBUG - _make_request: http://127.0.0.1:57689 "GET /session/6f6ede7d700f486574f6c7da8f63c624/url HTTP/1.1" 200 41
+2019-12-25 18:36:07,650: DEBUG - _request: Finished Request
+2019-12-25 18:36:08,158: DEBUG - _request: GET http://127.0.0.1:57689/session/6f6ede7d700f486574f6c7da8f63c624/url {}
+2019-12-25 18:36:08,163: DEBUG - _make_request: http://127.0.0.1:57689 "GET /session/6f6ede7d700f486574f6c7da8f63c624/url HTTP/1.1" 200 41
+2019-12-25 18:36:08,163: DEBUG - _request: Finished Request
+2019-12-25 18:36:08,672: DEBUG - _request: GET http://127.0.0.1:57689/session/6f6ede7d700f486574f6c7da8f63c624/url {}
+2019-12-25 18:36:08,684: DEBUG - _make_request: http://127.0.0.1:57689 "GET /session/6f6ede7d700f486574f6c7da8f63c624/url HTTP/1.1" 200 41
+2019-12-25 18:36:08,686: DEBUG - _request: Finished Request
+2019-12-25 18:36:09,201: DEBUG - _request: GET http://127.0.0.1:57689/session/6f6ede7d700f486574f6c7da8f63c624/url {}
+2019-12-25 18:36:09,208: DEBUG - _make_request: http://127.0.0.1:57689 "GET /session/6f6ede7d700f486574f6c7da8f63c624/url HTTP/1.1" 200 41
+2019-12-25 18:36:09,209: DEBUG - _request: Finished Request
+2019-12-25 18:36:09,710: DEBUG - _request: GET http://127.0.0.1:57689/session/6f6ede7d700f486574f6c7da8f63c624/url {}
+2019-12-25 18:36:09,728: DEBUG - _make_request: http://127.0.0.1:57689 "GET /session/6f6ede7d700f486574f6c7da8f63c624/url HTTP/1.1" 200 41
+2019-12-25 18:36:09,730: DEBUG - _request: Finished Request
+2019-12-25 18:36:10,237: DEBUG - _request: GET http://127.0.0.1:57689/session/6f6ede7d700f486574f6c7da8f63c624/url {}
+2019-12-25 18:36:10,244: DEBUG - _make_request: http://127.0.0.1:57689 "GET /session/6f6ede7d700f486574f6c7da8f63c624/url HTTP/1.1" 200 41
+2019-12-25 18:36:10,244: DEBUG - _request: Finished Request
+2019-12-25 18:36:10,749: DEBUG - _request: GET http://127.0.0.1:57689/session/6f6ede7d700f486574f6c7da8f63c624/url {}
+2019-12-25 18:36:10,756: DEBUG - _make_request: http://127.0.0.1:57689 "GET /session/6f6ede7d700f486574f6c7da8f63c624/url HTTP/1.1" 200 41
+2019-12-25 18:36:10,757: DEBUG - _request: Finished Request
+2019-12-25 18:36:11,264: DEBUG - _request: GET http://127.0.0.1:57689/session/6f6ede7d700f486574f6c7da8f63c624/url {}
+2019-12-25 18:36:11,281: DEBUG - _make_request: http://127.0.0.1:57689 "GET /session/6f6ede7d700f486574f6c7da8f63c624/url HTTP/1.1" 200 41
+2019-12-25 18:36:11,282: DEBUG - _request: Finished Request
+2019-12-25 18:36:11,788: DEBUG - _request: GET http://127.0.0.1:57689/session/6f6ede7d700f486574f6c7da8f63c624/url {}
+2019-12-25 18:36:11,794: DEBUG - _make_request: http://127.0.0.1:57689 "GET /session/6f6ede7d700f486574f6c7da8f63c624/url HTTP/1.1" 200 41
+2019-12-25 18:36:11,795: DEBUG - _request: Finished Request
+2019-12-25 18:36:12,300: DEBUG - _request: GET http://127.0.0.1:57689/session/6f6ede7d700f486574f6c7da8f63c624/url {}
+2019-12-25 18:36:12,307: DEBUG - _make_request: http://127.0.0.1:57689 "GET /session/6f6ede7d700f486574f6c7da8f63c624/url HTTP/1.1" 200 41
+2019-12-25 18:36:12,307: DEBUG - _request: Finished Request
+2019-12-25 18:36:12,811: DEBUG - _request: GET http://127.0.0.1:57689/session/6f6ede7d700f486574f6c7da8f63c624/url {}
+2019-12-25 18:36:12,819: DEBUG - _make_request: http://127.0.0.1:57689 "GET /session/6f6ede7d700f486574f6c7da8f63c624/url HTTP/1.1" 200 41
+2019-12-25 18:36:12,820: DEBUG - _request: Finished Request
+2019-12-25 18:36:13,322: DEBUG - _request: GET http://127.0.0.1:57689/session/6f6ede7d700f486574f6c7da8f63c624/url {}
+2019-12-25 18:36:13,328: DEBUG - _make_request: http://127.0.0.1:57689 "GET /session/6f6ede7d700f486574f6c7da8f63c624/url HTTP/1.1" 200 41
+2019-12-25 18:36:13,329: DEBUG - _request: Finished Request
+2019-12-25 18:36:13,837: DEBUG - _request: GET http://127.0.0.1:57689/session/6f6ede7d700f486574f6c7da8f63c624/url {}
+2019-12-25 18:36:13,842: DEBUG - _make_request: http://127.0.0.1:57689 "GET /session/6f6ede7d700f486574f6c7da8f63c624/url HTTP/1.1" 200 41
+2019-12-25 18:36:13,843: DEBUG - _request: Finished Request
+2019-12-25 18:36:14,351: DEBUG - _request: GET http://127.0.0.1:57689/session/6f6ede7d700f486574f6c7da8f63c624/url {}
+2019-12-25 18:36:14,363: DEBUG - _make_request: http://127.0.0.1:57689 "GET /session/6f6ede7d700f486574f6c7da8f63c624/url HTTP/1.1" 200 41
+2019-12-25 18:36:14,364: DEBUG - _request: Finished Request
+2019-12-25 18:36:14,879: DEBUG - _request: GET http://127.0.0.1:57689/session/6f6ede7d700f486574f6c7da8f63c624/url {}
+2019-12-25 18:36:14,892: DEBUG - _make_request: http://127.0.0.1:57689 "GET /session/6f6ede7d700f486574f6c7da8f63c624/url HTTP/1.1" 200 41
+2019-12-25 18:36:14,893: DEBUG - _request: Finished Request
+2019-12-25 18:36:15,409: DEBUG - _request: GET http://127.0.0.1:57689/session/6f6ede7d700f486574f6c7da8f63c624/url {}
+2019-12-25 18:36:15,426: DEBUG - _make_request: http://127.0.0.1:57689 "GET /session/6f6ede7d700f486574f6c7da8f63c624/url HTTP/1.1" 200 41
+2019-12-25 18:36:15,429: DEBUG - _request: Finished Request
+2019-12-25 18:36:15,935: DEBUG - _request: GET http://127.0.0.1:57689/session/6f6ede7d700f486574f6c7da8f63c624/url {}
+2019-12-25 18:36:15,941: DEBUG - _make_request: http://127.0.0.1:57689 "GET /session/6f6ede7d700f486574f6c7da8f63c624/url HTTP/1.1" 200 41
+2019-12-25 18:36:15,942: DEBUG - _request: Finished Request
+2019-12-25 18:36:16,449: DEBUG - _request: GET http://127.0.0.1:57689/session/6f6ede7d700f486574f6c7da8f63c624/url {}
+2019-12-25 18:36:16,467: DEBUG - _make_request: http://127.0.0.1:57689 "GET /session/6f6ede7d700f486574f6c7da8f63c624/url HTTP/1.1" 200 41
+2019-12-25 18:36:16,469: DEBUG - _request: Finished Request
+2019-12-25 18:36:16,978: DEBUG - _request: GET http://127.0.0.1:57689/session/6f6ede7d700f486574f6c7da8f63c624/url {}
+2019-12-25 18:36:17,001: DEBUG - _make_request: http://127.0.0.1:57689 "GET /session/6f6ede7d700f486574f6c7da8f63c624/url HTTP/1.1" 200 41
+2019-12-25 18:36:17,003: DEBUG - _request: Finished Request
+2019-12-25 18:36:17,505: DEBUG - _request: GET http://127.0.0.1:57689/session/6f6ede7d700f486574f6c7da8f63c624/url {}
+2019-12-25 18:36:17,523: DEBUG - _make_request: http://127.0.0.1:57689 "GET /session/6f6ede7d700f486574f6c7da8f63c624/url HTTP/1.1" 200 41
+2019-12-25 18:36:17,525: DEBUG - _request: Finished Request
+2019-12-25 18:36:18,032: DEBUG - _request: GET http://127.0.0.1:57689/session/6f6ede7d700f486574f6c7da8f63c624/url {}
+2019-12-25 18:36:18,037: DEBUG - _make_request: http://127.0.0.1:57689 "GET /session/6f6ede7d700f486574f6c7da8f63c624/url HTTP/1.1" 200 41
+2019-12-25 18:36:18,038: DEBUG - _request: Finished Request
+2019-12-25 18:36:18,545: DEBUG - _request: GET http://127.0.0.1:57689/session/6f6ede7d700f486574f6c7da8f63c624/url {}
+2019-12-25 18:36:18,561: DEBUG - _make_request: http://127.0.0.1:57689 "GET /session/6f6ede7d700f486574f6c7da8f63c624/url HTTP/1.1" 200 41
+2019-12-25 18:36:18,564: DEBUG - _request: Finished Request
+2019-12-25 18:36:19,073: DEBUG - _request: GET http://127.0.0.1:57689/session/6f6ede7d700f486574f6c7da8f63c624/url {}
+2019-12-25 18:36:19,090: DEBUG - _make_request: http://127.0.0.1:57689 "GET /session/6f6ede7d700f486574f6c7da8f63c624/url HTTP/1.1" 200 41
+2019-12-25 18:36:19,094: DEBUG - _request: Finished Request
+2019-12-25 18:36:19,600: DEBUG - _request: GET http://127.0.0.1:57689/session/6f6ede7d700f486574f6c7da8f63c624/url {}
+2019-12-25 18:36:19,606: DEBUG - _make_request: http://127.0.0.1:57689 "GET /session/6f6ede7d700f486574f6c7da8f63c624/url HTTP/1.1" 200 41
+2019-12-25 18:36:19,607: DEBUG - _request: Finished Request
+2019-12-25 18:36:20,115: DEBUG - _request: GET http://127.0.0.1:57689/session/6f6ede7d700f486574f6c7da8f63c624/url {}
+2019-12-25 18:36:20,126: DEBUG - _make_request: http://127.0.0.1:57689 "GET /session/6f6ede7d700f486574f6c7da8f63c624/url HTTP/1.1" 200 41
+2019-12-25 18:36:20,127: DEBUG - _request: Finished Request
+2019-12-25 18:36:20,629: DEBUG - _request: GET http://127.0.0.1:57689/session/6f6ede7d700f486574f6c7da8f63c624/url {}
+2019-12-25 18:36:20,636: DEBUG - _make_request: http://127.0.0.1:57689 "GET /session/6f6ede7d700f486574f6c7da8f63c624/url HTTP/1.1" 200 41
+2019-12-25 18:36:20,636: DEBUG - _request: Finished Request
+2019-12-25 18:36:21,143: DEBUG - _request: GET http://127.0.0.1:57689/session/6f6ede7d700f486574f6c7da8f63c624/url {}
+2019-12-25 18:36:21,154: DEBUG - _make_request: http://127.0.0.1:57689 "GET /session/6f6ede7d700f486574f6c7da8f63c624/url HTTP/1.1" 200 41
+2019-12-25 18:36:21,155: DEBUG - _request: Finished Request
+2019-12-25 18:36:21,656: DEBUG - _request: GET http://127.0.0.1:57689/session/6f6ede7d700f486574f6c7da8f63c624/url {}
+2019-12-25 18:36:21,673: DEBUG - _make_request: http://127.0.0.1:57689 "GET /session/6f6ede7d700f486574f6c7da8f63c624/url HTTP/1.1" 200 41
+2019-12-25 18:36:21,675: DEBUG - _request: Finished Request
+2019-12-25 18:36:22,188: DEBUG - _request: GET http://127.0.0.1:57689/session/6f6ede7d700f486574f6c7da8f63c624/url {}
+2019-12-25 18:36:22,211: DEBUG - _make_request: http://127.0.0.1:57689 "GET /session/6f6ede7d700f486574f6c7da8f63c624/url HTTP/1.1" 200 41
+2019-12-25 18:36:22,213: DEBUG - _request: Finished Request
+2019-12-25 18:36:22,718: DEBUG - _request: GET http://127.0.0.1:57689/session/6f6ede7d700f486574f6c7da8f63c624/url {}
+2019-12-25 18:36:22,735: DEBUG - _make_request: http://127.0.0.1:57689 "GET /session/6f6ede7d700f486574f6c7da8f63c624/url HTTP/1.1" 200 41
+2019-12-25 18:36:22,737: DEBUG - _request: Finished Request
+2019-12-25 18:36:23,246: DEBUG - _request: GET http://127.0.0.1:57689/session/6f6ede7d700f486574f6c7da8f63c624/url {}
+2019-12-25 18:36:23,252: DEBUG - _make_request: http://127.0.0.1:57689 "GET /session/6f6ede7d700f486574f6c7da8f63c624/url HTTP/1.1" 200 41
+2019-12-25 18:36:23,253: DEBUG - _request: Finished Request
+2019-12-25 18:36:23,761: DEBUG - _request: GET http://127.0.0.1:57689/session/6f6ede7d700f486574f6c7da8f63c624/url {}
+2019-12-25 18:36:23,766: DEBUG - _make_request: http://127.0.0.1:57689 "GET /session/6f6ede7d700f486574f6c7da8f63c624/url HTTP/1.1" 200 41
+2019-12-25 18:36:23,767: DEBUG - _request: Finished Request
+2019-12-25 18:36:24,273: DEBUG - _request: GET http://127.0.0.1:57689/session/6f6ede7d700f486574f6c7da8f63c624/url {}
+2019-12-25 18:36:24,278: DEBUG - _make_request: http://127.0.0.1:57689 "GET /session/6f6ede7d700f486574f6c7da8f63c624/url HTTP/1.1" 200 41
+2019-12-25 18:36:24,278: DEBUG - _request: Finished Request
+2019-12-25 18:36:24,784: DEBUG - _request: GET http://127.0.0.1:57689/session/6f6ede7d700f486574f6c7da8f63c624/url {}
+2019-12-25 18:36:24,803: DEBUG - _make_request: http://127.0.0.1:57689 "GET /session/6f6ede7d700f486574f6c7da8f63c624/url HTTP/1.1" 200 41
+2019-12-25 18:36:24,806: DEBUG - _request: Finished Request
+2019-12-25 18:36:25,313: DEBUG - _request: GET http://127.0.0.1:57689/session/6f6ede7d700f486574f6c7da8f63c624/url {}
+2019-12-25 18:36:30,623: DEBUG - _make_request: http://127.0.0.1:57689 "GET /session/6f6ede7d700f486574f6c7da8f63c624/url HTTP/1.1" 200 41
+2019-12-25 18:36:30,625: DEBUG - _request: Finished Request
+2019-12-25 18:36:31,134: DEBUG - _request: GET http://127.0.0.1:57689/session/6f6ede7d700f486574f6c7da8f63c624/url {}
+2019-12-25 18:36:31,140: DEBUG - _make_request: http://127.0.0.1:57689 "GET /session/6f6ede7d700f486574f6c7da8f63c624/url HTTP/1.1" 200 41
+2019-12-25 18:36:31,140: DEBUG - _request: Finished Request
+2019-12-25 18:36:31,642: DEBUG - _request: GET http://127.0.0.1:57689/session/6f6ede7d700f486574f6c7da8f63c624/url {}
+2019-12-25 18:36:31,648: DEBUG - _make_request: http://127.0.0.1:57689 "GET /session/6f6ede7d700f486574f6c7da8f63c624/url HTTP/1.1" 200 41
+2019-12-25 18:36:31,649: DEBUG - _request: Finished Request
+2019-12-25 18:36:32,152: DEBUG - _request: GET http://127.0.0.1:57689/session/6f6ede7d700f486574f6c7da8f63c624/url {}
+2019-12-25 18:36:32,205: DEBUG - _make_request: http://127.0.0.1:57689 "GET /session/6f6ede7d700f486574f6c7da8f63c624/url HTTP/1.1" 200 41
+2019-12-25 18:36:32,206: DEBUG - _request: Finished Request
+2019-12-25 18:36:32,715: DEBUG - _request: GET http://127.0.0.1:57689/session/6f6ede7d700f486574f6c7da8f63c624/url {}
+2019-12-25 18:36:32,731: DEBUG - _make_request: http://127.0.0.1:57689 "GET /session/6f6ede7d700f486574f6c7da8f63c624/url HTTP/1.1" 200 41
+2019-12-25 18:36:32,733: DEBUG - _request: Finished Request
+2019-12-25 18:36:33,241: DEBUG - _request: GET http://127.0.0.1:57689/session/6f6ede7d700f486574f6c7da8f63c624/url {}
+2019-12-25 18:36:33,260: DEBUG - _make_request: http://127.0.0.1:57689 "GET /session/6f6ede7d700f486574f6c7da8f63c624/url HTTP/1.1" 200 41
+2019-12-25 18:36:33,263: DEBUG - _request: Finished Request
+2019-12-25 18:36:33,768: DEBUG - _request: GET http://127.0.0.1:57689/session/6f6ede7d700f486574f6c7da8f63c624/url {}
+2019-12-25 18:36:33,792: DEBUG - _make_request: http://127.0.0.1:57689 "GET /session/6f6ede7d700f486574f6c7da8f63c624/url HTTP/1.1" 200 41
+2019-12-25 18:36:33,794: DEBUG - _request: Finished Request
+2019-12-25 18:36:34,297: DEBUG - _request: GET http://127.0.0.1:57689/session/6f6ede7d700f486574f6c7da8f63c624/url {}
+2019-12-25 18:36:34,308: DEBUG - _make_request: http://127.0.0.1:57689 "GET /session/6f6ede7d700f486574f6c7da8f63c624/url HTTP/1.1" 200 41
+2019-12-25 18:36:34,309: DEBUG - _request: Finished Request
+2019-12-25 18:36:34,811: DEBUG - _request: GET http://127.0.0.1:57689/session/6f6ede7d700f486574f6c7da8f63c624/url {}
+2019-12-25 18:36:34,835: DEBUG - _make_request: http://127.0.0.1:57689 "GET /session/6f6ede7d700f486574f6c7da8f63c624/url HTTP/1.1" 200 41
+2019-12-25 18:36:34,836: DEBUG - _request: Finished Request
+2019-12-25 18:36:35,342: DEBUG - _request: GET http://127.0.0.1:57689/session/6f6ede7d700f486574f6c7da8f63c624/url {}
+2019-12-25 18:36:35,356: DEBUG - _make_request: http://127.0.0.1:57689 "GET /session/6f6ede7d700f486574f6c7da8f63c624/url HTTP/1.1" 200 41
+2019-12-25 18:36:35,358: DEBUG - _request: Finished Request
+2019-12-25 18:36:35,866: DEBUG - _request: GET http://127.0.0.1:57689/session/6f6ede7d700f486574f6c7da8f63c624/url {}
+2019-12-25 18:36:35,883: DEBUG - _make_request: http://127.0.0.1:57689 "GET /session/6f6ede7d700f486574f6c7da8f63c624/url HTTP/1.1" 200 41
+2019-12-25 18:36:35,885: DEBUG - _request: Finished Request
+2019-12-25 18:36:36,399: DEBUG - _request: GET http://127.0.0.1:57689/session/6f6ede7d700f486574f6c7da8f63c624/url {}
+2019-12-25 18:36:36,404: DEBUG - _make_request: http://127.0.0.1:57689 "GET /session/6f6ede7d700f486574f6c7da8f63c624/url HTTP/1.1" 200 41
+2019-12-25 18:36:36,405: DEBUG - _request: Finished Request
+2019-12-25 18:36:36,909: DEBUG - _request: GET http://127.0.0.1:57689/session/6f6ede7d700f486574f6c7da8f63c624/url {}
+2019-12-25 18:36:37,047: DEBUG - _make_request: http://127.0.0.1:57689 "GET /session/6f6ede7d700f486574f6c7da8f63c624/url HTTP/1.1" 200 41
+2019-12-25 18:36:37,048: DEBUG - _request: Finished Request
+2019-12-25 18:36:37,564: DEBUG - _request: GET http://127.0.0.1:57689/session/6f6ede7d700f486574f6c7da8f63c624/url {}
+2019-12-25 18:36:37,573: DEBUG - _make_request: http://127.0.0.1:57689 "GET /session/6f6ede7d700f486574f6c7da8f63c624/url HTTP/1.1" 200 41
+2019-12-25 18:36:37,574: DEBUG - _request: Finished Request
+2019-12-25 18:36:38,090: DEBUG - _request: GET http://127.0.0.1:57689/session/6f6ede7d700f486574f6c7da8f63c624/url {}
+2019-12-25 18:36:38,108: DEBUG - _make_request: http://127.0.0.1:57689 "GET /session/6f6ede7d700f486574f6c7da8f63c624/url HTTP/1.1" 200 41
+2019-12-25 18:36:38,110: DEBUG - _request: Finished Request
+2019-12-25 18:36:38,620: DEBUG - _request: GET http://127.0.0.1:57689/session/6f6ede7d700f486574f6c7da8f63c624/url {}
+2019-12-25 18:36:38,633: DEBUG - _make_request: http://127.0.0.1:57689 "GET /session/6f6ede7d700f486574f6c7da8f63c624/url HTTP/1.1" 200 41
+2019-12-25 18:36:38,635: DEBUG - _request: Finished Request
+2019-12-25 18:36:39,150: DEBUG - _request: GET http://127.0.0.1:57689/session/6f6ede7d700f486574f6c7da8f63c624/url {}
+2019-12-25 18:36:39,155: DEBUG - _make_request: http://127.0.0.1:57689 "GET /session/6f6ede7d700f486574f6c7da8f63c624/url HTTP/1.1" 200 41
+2019-12-25 18:36:39,156: DEBUG - _request: Finished Request
+2019-12-25 18:36:39,665: DEBUG - _request: GET http://127.0.0.1:57689/session/6f6ede7d700f486574f6c7da8f63c624/url {}
+2019-12-25 18:36:39,716: DEBUG - _make_request: http://127.0.0.1:57689 "GET /session/6f6ede7d700f486574f6c7da8f63c624/url HTTP/1.1" 200 41
+2019-12-25 18:36:39,718: DEBUG - _request: Finished Request
+2019-12-25 18:36:40,226: DEBUG - _request: GET http://127.0.0.1:57689/session/6f6ede7d700f486574f6c7da8f63c624/url {}
+2019-12-25 18:36:40,243: DEBUG - _make_request: http://127.0.0.1:57689 "GET /session/6f6ede7d700f486574f6c7da8f63c624/url HTTP/1.1" 200 41
+2019-12-25 18:36:40,245: DEBUG - _request: Finished Request
+2019-12-25 18:36:40,755: DEBUG - _request: GET http://127.0.0.1:57689/session/6f6ede7d700f486574f6c7da8f63c624/url {}
+2019-12-25 18:36:40,773: DEBUG - _make_request: http://127.0.0.1:57689 "GET /session/6f6ede7d700f486574f6c7da8f63c624/url HTTP/1.1" 200 41
+2019-12-25 18:36:40,775: DEBUG - _request: Finished Request
+2019-12-25 18:36:41,283: DEBUG - _request: GET http://127.0.0.1:57689/session/6f6ede7d700f486574f6c7da8f63c624/url {}
+2019-12-25 18:36:41,300: DEBUG - _make_request: http://127.0.0.1:57689 "GET /session/6f6ede7d700f486574f6c7da8f63c624/url HTTP/1.1" 200 41
+2019-12-25 18:36:41,302: DEBUG - _request: Finished Request
+2019-12-25 18:36:41,811: DEBUG - _request: GET http://127.0.0.1:57689/session/6f6ede7d700f486574f6c7da8f63c624/url {}
+2019-12-25 18:36:41,821: DEBUG - _make_request: http://127.0.0.1:57689 "GET /session/6f6ede7d700f486574f6c7da8f63c624/url HTTP/1.1" 200 41
+2019-12-25 18:36:41,823: DEBUG - _request: Finished Request
+2019-12-25 18:36:42,339: DEBUG - _request: GET http://127.0.0.1:57689/session/6f6ede7d700f486574f6c7da8f63c624/url {}
+2019-12-25 18:36:42,362: DEBUG - _make_request: http://127.0.0.1:57689 "GET /session/6f6ede7d700f486574f6c7da8f63c624/url HTTP/1.1" 200 41
+2019-12-25 18:36:42,363: DEBUG - _request: Finished Request
+2019-12-25 18:36:42,868: DEBUG - _request: GET http://127.0.0.1:57689/session/6f6ede7d700f486574f6c7da8f63c624/url {}
+2019-12-25 18:36:42,881: DEBUG - _make_request: http://127.0.0.1:57689 "GET /session/6f6ede7d700f486574f6c7da8f63c624/url HTTP/1.1" 200 41
+2019-12-25 18:36:42,883: DEBUG - _request: Finished Request
+2019-12-25 18:36:43,396: DEBUG - _request: GET http://127.0.0.1:57689/session/6f6ede7d700f486574f6c7da8f63c624/url {}
+2019-12-25 18:36:43,404: DEBUG - _make_request: http://127.0.0.1:57689 "GET /session/6f6ede7d700f486574f6c7da8f63c624/url HTTP/1.1" 200 41
+2019-12-25 18:36:43,405: DEBUG - _request: Finished Request
+2019-12-25 18:36:43,905: DEBUG - _request: GET http://127.0.0.1:57689/session/6f6ede7d700f486574f6c7da8f63c624/url {}
+2019-12-25 18:36:43,927: DEBUG - _make_request: http://127.0.0.1:57689 "GET /session/6f6ede7d700f486574f6c7da8f63c624/url HTTP/1.1" 200 41
+2019-12-25 18:36:43,929: DEBUG - _request: Finished Request
+2019-12-25 18:36:44,434: DEBUG - _request: GET http://127.0.0.1:57689/session/6f6ede7d700f486574f6c7da8f63c624/url {}
+2019-12-25 18:36:44,454: DEBUG - _make_request: http://127.0.0.1:57689 "GET /session/6f6ede7d700f486574f6c7da8f63c624/url HTTP/1.1" 200 41
+2019-12-25 18:36:44,456: DEBUG - _request: Finished Request
+2019-12-25 18:36:44,958: DEBUG - _request: GET http://127.0.0.1:57689/session/6f6ede7d700f486574f6c7da8f63c624/url {}
+2019-12-25 18:36:44,975: DEBUG - _make_request: http://127.0.0.1:57689 "GET /session/6f6ede7d700f486574f6c7da8f63c624/url HTTP/1.1" 200 41
+2019-12-25 18:36:44,978: DEBUG - _request: Finished Request
+2019-12-25 18:36:45,488: DEBUG - _request: GET http://127.0.0.1:57689/session/6f6ede7d700f486574f6c7da8f63c624/url {}
+2019-12-25 18:36:45,505: DEBUG - _make_request: http://127.0.0.1:57689 "GET /session/6f6ede7d700f486574f6c7da8f63c624/url HTTP/1.1" 200 41
+2019-12-25 18:36:45,508: DEBUG - _request: Finished Request
+2019-12-25 18:36:46,015: DEBUG - _request: GET http://127.0.0.1:57689/session/6f6ede7d700f486574f6c7da8f63c624/url {}
+2019-12-25 18:36:46,027: DEBUG - _make_request: http://127.0.0.1:57689 "GET /session/6f6ede7d700f486574f6c7da8f63c624/url HTTP/1.1" 200 41
+2019-12-25 18:36:46,028: DEBUG - _request: Finished Request
+2019-12-25 18:36:46,542: DEBUG - _request: GET http://127.0.0.1:57689/session/6f6ede7d700f486574f6c7da8f63c624/url {}
+2019-12-25 18:36:46,563: DEBUG - _make_request: http://127.0.0.1:57689 "GET /session/6f6ede7d700f486574f6c7da8f63c624/url HTTP/1.1" 200 41
+2019-12-25 18:36:46,564: DEBUG - _request: Finished Request
+2019-12-25 18:36:47,073: DEBUG - _request: GET http://127.0.0.1:57689/session/6f6ede7d700f486574f6c7da8f63c624/url {}
+2019-12-25 18:36:47,090: DEBUG - _make_request: http://127.0.0.1:57689 "GET /session/6f6ede7d700f486574f6c7da8f63c624/url HTTP/1.1" 200 41
+2019-12-25 18:36:47,092: DEBUG - _request: Finished Request
+2019-12-25 18:36:47,604: DEBUG - _request: GET http://127.0.0.1:57689/session/6f6ede7d700f486574f6c7da8f63c624/url {}
+2019-12-25 18:36:57,493: DEBUG - _make_request: http://127.0.0.1:57689 "GET /session/6f6ede7d700f486574f6c7da8f63c624/url HTTP/1.1" 200 1073
+2019-12-25 18:36:57,494: DEBUG - _request: Finished Request
+2019-12-25 18:36:57,994: DEBUG - _request: GET http://127.0.0.1:57689/session/6f6ede7d700f486574f6c7da8f63c624/url {}
+2019-12-25 18:36:58,016: DEBUG - _make_request: http://127.0.0.1:57689 "GET /session/6f6ede7d700f486574f6c7da8f63c624/url HTTP/1.1" 200 1073
+2019-12-25 18:36:58,019: DEBUG - _request: Finished Request
+2019-12-25 18:36:58,521: DEBUG - _request: GET http://127.0.0.1:57689/session/6f6ede7d700f486574f6c7da8f63c624/url {}
+2019-12-25 18:36:58,533: DEBUG - _make_request: http://127.0.0.1:57689 "GET /session/6f6ede7d700f486574f6c7da8f63c624/url HTTP/1.1" 200 1073
+2019-12-25 18:36:58,533: DEBUG - _request: Finished Request
+2019-12-25 18:36:59,037: DEBUG - _request: GET http://127.0.0.1:57689/session/6f6ede7d700f486574f6c7da8f63c624/url {}
+2019-12-25 18:36:59,045: DEBUG - _make_request: http://127.0.0.1:57689 "GET /session/6f6ede7d700f486574f6c7da8f63c624/url HTTP/1.1" 200 1073
+2019-12-25 18:36:59,046: DEBUG - _request: Finished Request
+2019-12-25 18:36:59,551: DEBUG - _request: GET http://127.0.0.1:57689/session/6f6ede7d700f486574f6c7da8f63c624/url {}
+2019-12-25 18:36:59,567: DEBUG - _make_request: http://127.0.0.1:57689 "GET /session/6f6ede7d700f486574f6c7da8f63c624/url HTTP/1.1" 200 1073
+2019-12-25 18:36:59,569: DEBUG - _request: Finished Request
+2019-12-25 18:37:00,079: DEBUG - _request: GET http://127.0.0.1:57689/session/6f6ede7d700f486574f6c7da8f63c624/url {}
+2019-12-25 18:37:09,521: DEBUG - _make_request: http://127.0.0.1:57689 "GET /session/6f6ede7d700f486574f6c7da8f63c624/url HTTP/1.1" 200 174
+2019-12-25 18:37:09,522: DEBUG - _request: Finished Request
+2019-12-25 18:37:09,522: DEBUG - _request: GET http://127.0.0.1:57689/session/6f6ede7d700f486574f6c7da8f63c624/url {}
+2019-12-25 18:37:09,526: DEBUG - _make_request: http://127.0.0.1:57689 "GET /session/6f6ede7d700f486574f6c7da8f63c624/url HTTP/1.1" 200 174
+2019-12-25 18:37:09,528: DEBUG - _request: Finished Request
+2019-12-25 18:37:09,528: DEBUG - _request: DELETE http://127.0.0.1:57689/session/6f6ede7d700f486574f6c7da8f63c624 {}
+2019-12-25 18:37:09,638: DEBUG - _make_request: http://127.0.0.1:57689 "DELETE /session/6f6ede7d700f486574f6c7da8f63c624 HTTP/1.1" 200 14
+2019-12-25 18:37:09,640: DEBUG - _request: Finished Request
+2019-12-25 18:37:11,880: INFO - get_authorization_code: Code Obtained: v%5E1.1%23i%5E1%23I%5E3%23f%5E0%23r%5E1%23p%5E3%23t%5EUl41Xzc6QzY0RDUyRDVENEJDMjJFMTcwMTE5Q0NBQTY4MzUzQkNfMF8xI0VeMjYw
+2019-12-25 18:37:11,882: INFO - exchange_code_for_access_token: Trying to get a new user access token ... 
+2019-12-25 18:37:11,901: DEBUG - _new_conn: Starting new HTTPS connection (1): api.ebay.com:443
+2019-12-25 18:37:13,157: DEBUG - _make_request: https://api.ebay.com:443 "POST /identity/v1/oauth2/token HTTP/1.1" 200 1761
